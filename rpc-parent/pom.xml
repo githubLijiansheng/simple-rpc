@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.ljs.rpc</groupId>
+	<artifactId>rpc-parent</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>rpc-parent</name>
+	<description>自定义rpc父工程</description>
+	<modules>
+		<module>../rpc-demo</module>
+		<module>../rpc-srource</module>
+	</modules>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+
+		<log4g.version>1.7.7</log4g.version>
+		<spring.version>5.0.6.RELEASE</spring.version>
+		<apache.commons.collection>4.0</apache.commons.collection>
+		<cglib>3.1</cglib>
+		<netty.version>4.0.24.Final</netty.version>
+		<protostuff.version>1.0.8</protostuff.version>
+		<objenesis.version>2.1</objenesis.version>
+		<zookeeper>3.4.5</zookeeper>
+	</properties>
+
+</project>
