@@ -23,6 +23,7 @@
 		<protostuff.version>1.0.8</protostuff.version>
 		<objenesis.version>2.1</objenesis.version>
 		<zookeeper>3.4.5</zookeeper>
+		<redis.version>2.9.0</redis.version>
 	</properties>
 
 </project>
